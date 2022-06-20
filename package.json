@@ -1,0 +1,45 @@
+{
+  "name": "react-brewery-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bulma": "^0.9.4",
+    "dequal": "^2.0.2",
+    "csstype": "^3.1.0",
+    "classnames": "^2.3.1",
+    "dom-helpers": "^5.2.1",
+    "object-assign": "^4.1.1",
+    "invariant": "^2.2.4",
+    "react-bootstrap": "^2.4.0",
+    "prop-types": "^15.8.1",
+    "prop-types-extra": "^1.1.1",
+    "react": "^18.2.0",
+    "react-is": "^16.13.1",
+    "js-tokens": "^4.0.0",
+    "react-bulma-components": "^4.1.0",
+    "react-transition-group": "^4.4.2",
+    "react-dom": "^18.2.0",
+    "react-lifecycles-compat": "^3.0.4",
+    "uncontrollable": "^7.2.1",
+    "loose-envify": "^1.4.0",
+    "scheduler": "^0.23.0",
+    "regenerator-runtime": "^0.13.9",
+    "warning": "^4.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/midth002/react-brewery-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/midth002/react-brewery-api/issues"
+  },
+  "homepage": "https://github.com/midth002/react-brewery-api#readme"
+}
