@@ -32,7 +32,7 @@ const WeatherBoard = () => {
       }, [lat, long]);
 
   return (
-    <div className="is-widescreen weather-div">
+    <div className="weather-div">
             {(typeof data.current != 'undefined') ? (
         <Weather weatherData={data}/>
       ): (

@@ -1,8 +1,8 @@
 .current {
     opacity: 0.8;
-    position: fixed;
-    bottom: 0;
-    left: 0;
+    position: relative;
+    bottom: 35px;
+    left: 3%;
     right: 0;
 }
 
@@ -36,5 +36,9 @@
     color: black;
     font-weight: 400;
     font-size: 12px;
+}
+
+.parent-container {
+    width: 40%;
 }
 

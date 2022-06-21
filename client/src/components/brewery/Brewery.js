@@ -60,7 +60,7 @@ const Brewery = () => {
     
 
   return (
-    <Container className='is-fluid is-widescreen mt-5 pb-5'>
+    <Container className='is-fluid is-widescreen pb-5'>
     <div className='results-title columns is-align-content-center mb-5'>
 
         <h2 className="column">Results</h2>

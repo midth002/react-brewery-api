@@ -69,13 +69,13 @@ const SearchBar = () => {
   return (
     <div>
  
-    <Container className='is-fluid is-widescreen mt-5 pb-5'>
+    <Container className='is-fluid is-widescreen pb-5'>
     <div className='results-title columns is-align-items-center mb-5'>
 
         <h2 className="column is-one-quarter is-align-items-start">Results: Page {page}</h2>
     <form className="field column is-half">
   <div className="control columns is-align-items-start">
-    <input className="input column is-three-quarters m-1 city-value" 
+    <input className="input column is-three-quarters mt-3 city-value" 
     type="text" placeholder="Search By City" 
     name="city"
     value={searchCity} 
@@ -83,7 +83,7 @@ const SearchBar = () => {
     required 
     />
     <input type='submit' 
-    className="button is-info column m-1 city-btn" 
+    className="button is-info column mt-3 city-btn" 
     value="Search" 
     onClick={getCity}
     />
