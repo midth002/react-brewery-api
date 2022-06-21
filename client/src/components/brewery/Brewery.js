@@ -9,7 +9,7 @@ const Brewery = () => {
     const [ lat, setLat ] = useState([]);
     const [ long, setLong ] = useState([]);
     const [ brewData, setData ] = useState([]);
-    const [ page, setPage ] = useState(0);
+    const [ page, setPage ] = useState(1);
     
 
     useEffect(() => {
@@ -23,7 +23,7 @@ const Brewery = () => {
 
        
       
-              await fetch(`https://api.openbrewerydb.org/breweries?by_dist=44.762058,-93.275772&page=${page}&per_page=8`)
+              await fetch(`https://api.openbrewerydb.org/breweries?by_dist=44.762058,-93.275772&page=${page}&per_page=12`)
               .then(res => res.json())
               .then(result => {
 

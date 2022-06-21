@@ -1,0 +1,37 @@
+.field {
+    position: relative;
+}
+
+.city-value {
+    opacity: 0.9;
+}
+
+.city-btn {
+    opacity: 0.9;
+}
+
+.btn-pags {
+    background-color: transparent!important;
+}
+
+
+.selectPages p {
+    color: white;
+}
+
+.selectPages button {
+    background-color: transparent!important;
+    color: white;
+    border: none;
+    font-size: 18px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 5px;
+}
+
+.selectPages button:hover {
+    transition: all 1s ease-in-out;
+    font-weight: 600;
+    color: white;
+}

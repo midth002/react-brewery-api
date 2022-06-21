@@ -1,9 +1,10 @@
 .results-title {
-    height: 30px;
+    height: 75px;
+    vertical-align: middle;
 }
 
 .arrow-icon {
-    color: white;
+    color: #ffe08a;
 }
 
 .single-brew-card {
