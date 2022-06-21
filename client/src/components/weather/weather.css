@@ -1,0 +1,38 @@
+.current {
+    opacity: 0.8;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.current h5 {
+    font-weight: 600;
+    color: black;
+}
+
+.current:hover {
+    opacity: 0.9;
+}
+
+.forecast {
+    opacity: 0.8;
+}
+
+.forecast:hover {
+    opacity: 0.9;
+}
+
+.current div p {
+    color: black;
+}
+
+.forecast p {
+    color: black;
+    font-weight: 500;
+}
+
+.parent-container {
+    position: sticky;
+    
+}

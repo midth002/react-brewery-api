@@ -4,21 +4,20 @@ import "./navbar.css";
 // import Nav from "react-bootstrap/Nav";
 const NavbarTop = () => {
   return (
-    <Navbar  aria-label='main navigation' className='nav'
-    brand='UI'>
-    <Container className='link-container'>
-      <div class='columns'>
-        <div class="column">
+    <Navbar aria-label='main navigation' className='nav-top '>
+    <Container className='link-container is-justify-content-center mt-4'>
+      <div className='columns link-columns mr-10'>
+        <div className="column">
           <a href="" className='link'>HOME</a>
         </div>
-        <div class="column">
-          <a href="" className='link'>LOCATION</a>
+        <div className="column">
+          <a href="/geolocation" className='link'>LOCATION</a>
         </div>
-        <div class="column">
-          <a href="" className='link'>SEARCH</a>
+        <div className="column">
+          <a href="/search" className='link'>SEARCH</a>
         </div>
-        <div class="column">
-          <a href="" className='link'>LOGIN</a>
+        <div className="column">
+          <a href="" className='link button is-warning'>LOGIN</a>
         </div>
       </div>
     </Container>

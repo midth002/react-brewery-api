@@ -1,0 +1,47 @@
+.results-title {
+    height: 50px;
+}
+
+.arrow-icon {
+    color: white;
+}
+
+.single-brew-card {
+    background-color: #5F606F!important;
+    color: white!important;
+
+}
+
+.single-brew-card h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.single-brew-card:hover {
+    transition: all 1s ease-in-out;
+    background-color: #A3C9D9!important;
+}
+
+.compass {
+    color: green;
+}
+
+.results-title h2 {
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.change-page p {
+    color: white;
+    font-weight: 700;
+}
+
+.arrow-icon:hover {
+    transition: all 1s ease-in-out;
+    color: #5F606F 
+}
+
+.icon-div {
+    width: 50%;
+}

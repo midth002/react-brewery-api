@@ -1,5 +1,22 @@
 .App {
   text-align: center;
+  height: 100vh;
+  position: relative;
+}
+
+.App::before {
+  content: "";
+  background-image: url('./images/brick.jpg');
+  background-size: cover;                    
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.85;
+  position: fixed;
 }
 
 .App-logo {

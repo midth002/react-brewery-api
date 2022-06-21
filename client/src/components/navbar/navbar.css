@@ -1,4 +1,34 @@
-.nav {
-    background-color: #f15b23;
+.nav-top {
+    background-color: transparent!important;
+    width: 35%;
+    float: right;
+    
 }
+
+.link {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.link:hover {
+    transition: 1s ease-in-out;
+    color: #224459;
+}
+
+.link-columns {
+    /* background: rgba(204, 204, 204, 0.7); */
+    align-items: center;
+    border-radius: 25px;
+}
+
+.link-columns div a {
+    z-index: 2;
+    opacity: 1;
+}
+
+.button {
+    font-size: 18px;
+}
+
 
