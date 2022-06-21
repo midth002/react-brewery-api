@@ -8,6 +8,8 @@ const Search = () => {
         <WeatherBoard />
         <SearchBar />
     </Container>
+
+    
   )
 }
 
