@@ -1,4 +1,6 @@
-.weatehr-div {
-    position: fixed!important;
-
+.weather-div {
+    position: relative;
+    bottom: 60px;
+    left: 3%;
+    height: 100px!important;
 }

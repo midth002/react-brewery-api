@@ -2,9 +2,9 @@
     background-color: transparent!important;
     display: flex;
     width: 35%;
-    left: 60%;
-    top: 2%;
-    position: fixed!important;
+    left: 55%;
+    top: 0.25%;
+    position: relative!important;
     z-index: 3;
    
     margin-right: 10%!important;

@@ -10,7 +10,7 @@ const BreweryList = ({brewery}) => {
     <>
     {brewery.map((brew) => {
         return (
-            <Card className="column is-one-fifth m-4 single-brew-card" key={brew.id}>
+            <Card className="column is-one-fifth m-2 single-brew-card" key={brew.id}>
             <h3>{brew.name}</h3>
             <p>{brew.brewery_type}</p>
             <p>{brew.city}, {brew.state}</p>

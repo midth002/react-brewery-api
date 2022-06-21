@@ -13,7 +13,7 @@ const Weather = ({weatherData}) => {
 
 
   return (
-    <Container className="columns pt-5 parent-container">
+    <Container className="columns parent-container">
         <Card className="column is-half current">
             <div className="columns is-align-content-center is-align-items-center">
               <Card className="column is-one-quarter"><p><FontAwesomeIcon icon={faLocationDot}/></p></Card>
