@@ -1,3 +1,4 @@
 .weatehr-div {
-    position: fixed;
+    position: fixed!important;
+
 }
