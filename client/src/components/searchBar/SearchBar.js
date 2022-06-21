@@ -12,7 +12,7 @@ const SearchBar = () => {
     const [ page, setPage ] = useState(1);
 
         const fetchBrewCityData = async () => {
-            await fetch(`https://api.openbrewerydb.org/breweries?by_city=${searchCity}&page=${page}&per_page=16`)
+            await fetch(`https://api.openbrewerydb.org/breweries?by_city=${searchCity}&page=${page}&per_page=8`)
             .then(res => res.json())
             .then(result => {
 

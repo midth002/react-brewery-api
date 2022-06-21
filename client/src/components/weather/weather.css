@@ -17,6 +17,7 @@
 
 .forecast {
     opacity: 0.8;
+    
 }
 
 .forecast:hover {
@@ -27,12 +28,17 @@
     color: black;
 }
 
-.forecast p {
-    color: black;
-    font-weight: 500;
+.forecast h5 {
+    font-size: 12px;
 }
 
-.parent-container {
+.forecast p {
+    color: black;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+/* .parent-container {
     position: sticky;
     
-}
+} */
