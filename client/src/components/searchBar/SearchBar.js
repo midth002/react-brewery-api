@@ -1,6 +1,11 @@
 import React from 'react'
 import './searchbar.css';
 const SearchBar = () => {
+
+    
+
+
+
   return (
     <div className="field">
   <div className="control columns is-justify-content-flex-end">
