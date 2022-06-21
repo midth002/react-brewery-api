@@ -7,6 +7,10 @@ import './weather.css';
 // <p>{weatherData.daily[0].temp.max} °F</p>
 // <p>{weatherData.daily[0].temp.min} °F</p>
 const Weather = ({weatherData}) => {
+
+  
+
+
   return (
     <Container className="columns pt-5 parent-container">
         <Card className="column is-half current">
@@ -19,8 +23,8 @@ const Weather = ({weatherData}) => {
             <div className="columns">
             {weatherData.daily.map((daily) => (
               <Card className='column forecast is-flex-wrap-nowrap'>
-                <h5>{daily.temp.max}°F</h5>
-                <p>{daily.weather[0].description}</p>
+                <h5>{Math.round(daily.temp.max)}°F</h5>
+                <img src={`http://openweathermap.org/img/w/${daily.weather[0].icon}.png`} />
                 </Card>
             ))}
                
