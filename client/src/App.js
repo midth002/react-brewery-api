@@ -5,7 +5,7 @@ import WeatherBoard from './components/weatherBoard/WeatherBoard';
 import Location from './pages/location/Location';
 import Search from './pages/search/Search';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { Footer } from 'react-bulma-components';
+import Footer from './components/footer/Footer'
 
 function App() {
   return (
