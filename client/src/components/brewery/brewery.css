@@ -1,5 +1,5 @@
 .results-title {
-    height: 50px;
+    height: 30px;
 }
 
 .arrow-icon {
@@ -15,8 +15,13 @@
 }
 
 .single-brew-card h3 {
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 700;
+}
+
+.single-brew-card p {
+    font-size: 15px;
+    font-weight: 400;
 }
 
 .single-brew-card:hover {
@@ -30,7 +35,7 @@
 
 .results-title h2 {
     color: white;
-    font-size: 25px;
+    font-size: 22px;
     font-weight: 700;
 }
 

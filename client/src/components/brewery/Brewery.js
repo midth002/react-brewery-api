@@ -23,7 +23,7 @@ const Brewery = () => {
 
        
       
-              await fetch(`https://api.openbrewerydb.org/breweries?by_dist=44.762058,-93.275772&page=${page}&per_page=16`)
+              await fetch(`https://api.openbrewerydb.org/breweries?by_dist=44.762058,-93.275772&page=${page}&per_page=8`)
               .then(res => res.json())
               .then(result => {
 
