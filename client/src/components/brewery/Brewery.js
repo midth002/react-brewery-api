@@ -9,12 +9,12 @@ const Brewery = () => {
     const [ lat, setLat ] = useState([]);
     const [ long, setLong ] = useState([]);
     const [ brewData, setData ] = useState([]);
-
+    const [ page, setPage ] = useState(0);
     
 
     useEffect(() => {
         const fetchBrewData = async () => {
-            await navigator.geolocation.getCurrentPosition(function(position) {
+           navigator.geolocation.getCurrentPosition(function(position) {
                 setLat(position.coords.latitude);
                 setLong(position.coords.longitude);
               });
@@ -23,7 +23,7 @@ const Brewery = () => {
 
        
       
-              await fetch(`https://api.openbrewerydb.org/breweries?by_dist=44.762058,-93.275772&per_page=20`)
+              await fetch(`https://api.openbrewerydb.org/breweries?by_dist=44.762058,-93.275772&page=${page}&per_page=12`)
               .then(res => res.json())
               .then(result => {
 
@@ -31,12 +31,31 @@ const Brewery = () => {
                 console.log(result);
               });
         }
-        
+
+    
+       
         fetchBrewData();
+        
     
         // console.log("Latitude is:", lat)
         // console.log("Longitude is:", long)
-      }, []);
+      }, [page]);
+
+
+      const changePage = () => {
+        let pageChange = page + 1;
+        setPage(pageChange);
+        console.log("changed", page)
+        
+      }
+
+      const previousPage = () => {
+        let pageChange = page - 1;
+        setPage(pageChange);
+        console.log("previous page", page)
+        
+      }
+      
       
     
 
@@ -45,13 +64,16 @@ const Brewery = () => {
     <div className='results-title columns is-align-content-center mb-5'>
 
         <h2 className="column">Results</h2>
+        {page > 1 && <div className='column selectPages'><FontAwesomeIcon icon={faCircleChevronLeft}  size="lg"  className="arrow-icon" onClick={previousPage}/></div>
 
+        }
+        <div className='column selectPages'><FontAwesomeIcon icon={faCircleChevronRight}  size="lg"  className="arrow-icon" onClick={changePage}/></div>
     </div>
     <div className="columns is-flex-wrap-wrap is-justify-content-center">
-    {/* <div className='column'><FontAwesomeIcon icon={faCircleChevronLeft}  size="lg" className="arrow-icon"/></div> */}
+   
     
     <BreweryList brewery={brewData} />
-    <div className='columns is-full icon-div'> <FontAwesomeIcon icon={faCircleArrowDown}  size="lg" className="arrow-icon column"/></div>
+   
    
     </div>
     </Container>
