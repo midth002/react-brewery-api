@@ -1,0 +1,37 @@
+.description-home {
+    background-color: transparent!important;
+    
+    width: 50%;
+}
+
+.description-home h2 {
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.description-home p {
+    color: white;
+    font-weight: 650;
+    line-height: 2;
+}
+
+.description-home p a {
+    text-decoration: none;
+    color: yellow; 
+    font-weight: 800;
+}
+
+.description-home p a:hover {
+    text-decoration: underline;
+}
+
+.beer-gif img {
+    border-radius: 100px;
+    background-color: transparent!important;
+}
+
+.highlight {
+    color: yellow;
+    font-weight: 800;
+}

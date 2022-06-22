@@ -16,7 +16,7 @@ const Weather = ({weatherData}) => {
     <Container className="columns parent-container">
         <Card className="column is-half current">
             <div className="columns is-align-content-center is-align-items-center">
-              <Card className="column is-one-quarter"><p><FontAwesomeIcon icon={faLocationDot}/></p></Card>
+              <Card className="column is-one-quarter"><p><FontAwesomeIcon icon={faLocationDot}/> Your Location</p></Card>
                 
                 <h5>{Math.round(weatherData.current.temp)} °F</h5>
                 <img src={`http://openweathermap.org/img/w/${weatherData.current.weather[0].icon}.png`} />
