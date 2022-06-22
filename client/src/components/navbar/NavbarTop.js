@@ -8,16 +8,13 @@ const NavbarTop = () => {
     <Container className='link-container is-justify-content-center mt-4'>
       <div className='columns link-columns mr-10'>
         <div className="column">
-          <a href="" className='link'>HOME</a>
+          <a href="/" className='link'>HOME</a>
         </div>
         <div className="column">
           <a href="/geolocation" className='link'>LOCATION</a>
         </div>
         <div className="column">
           <a href="/search" className='link'>SEARCH</a>
-        </div>
-        <div className="column">
-          <a href="" className='link button is-warning'>LOGIN</a>
         </div>
       </div>
     </Container>
