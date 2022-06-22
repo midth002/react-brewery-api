@@ -18,7 +18,7 @@ function App() {
         <Route path='/geolocation' element={<Location />} />
       </Routes>
     </Router>
-    <Footer />
+    {/* <Footer /> */}
     </div>
   );
 }
