@@ -13,7 +13,7 @@ function App() {
     <NavbarTop />
     <Router>
       <Routes>
-      <Route path='/react-brewery-api/' element={<Home />} />
+      <Route path='/react-brewery-api' element={<Home />} />
       <Route path='/react-brewery-api/search' element={<Search />} />
         <Route path='/react-brewery-api/geolocation' element={<Location />} />
       </Routes>
