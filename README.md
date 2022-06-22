@@ -30,15 +30,15 @@
 
   This is the home page with a brief description of the website and how to navigate through.
 
-  ![Home Page](./client/src/images/homepage1.png)
+  ![Home Page](./src/images/homepage1.png)
 
   The location page where the application will find your geolocation and display filter results by distance.
 
-  ![Location Page](./client/src/images/locationpage1.png)
+  ![Location Page](./src/images/locationpage1.png)
 
   The search page is where users can find breweries by city name's and see all the breweries that city has to offer.
 
-  ![Search Page](./client/src/images/searchpage1.png)
+  ![Search Page](./src/images/searchpage1.png)
   
   ## Installation 
 
