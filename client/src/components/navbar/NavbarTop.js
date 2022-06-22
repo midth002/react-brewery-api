@@ -2,9 +2,15 @@ import React from 'react'
 import { Button, Navbar, Container, Columns, Column } from "react-bulma-components";
 import "./navbar.css";
 // import Nav from "react-bootstrap/Nav";
+
+
+
 const NavbarTop = () => {
-  const queryString = window.location.search;
-console.log(queryString);
+  
+  const queryString = window.location.href;
+const splitString = queryString.split('/')
+const route = splitString[3];
+
 
   return (
     <Navbar aria-label='main navigation' className='nav-top '>
@@ -14,7 +20,7 @@ console.log(queryString);
           <a href="/" className='link'>HOME</a>
         </div>
         <div className="column">
-          <a href="/geolocation" className='link'>LOCATION</a>
+          <a href="/geolocation" className={`${route == 'geolocation' ? "link-active" : "link"}`}>LOCATION</a>
         </div>
         <div className="column">
           <a href="/search" className='link'>SEARCH</a>
