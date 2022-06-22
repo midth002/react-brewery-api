@@ -13,9 +13,9 @@ function App() {
     <NavbarTop />
     <Router>
       <Routes>
-      <Route path='/' element={<Home />} />
-      <Route path='/search' element={<Search />} />
-        <Route path='/geolocation' element={<Location />} />
+      <Route path='/react-brewery-api/' element={<Home />} />
+      <Route path='/react-brewery-api/search' element={<Search />} />
+        <Route path='/react-brewery-api/geolocation' element={<Location />} />
       </Routes>
     </Router>
     {/* <Footer /> */}
