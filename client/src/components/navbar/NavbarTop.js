@@ -3,6 +3,9 @@ import { Button, Navbar, Container, Columns, Column } from "react-bulma-componen
 import "./navbar.css";
 // import Nav from "react-bootstrap/Nav";
 const NavbarTop = () => {
+  const queryString = window.location.search;
+console.log(queryString);
+
   return (
     <Navbar aria-label='main navigation' className='nav-top '>
     <Container className='link-container is-justify-content-center mt-4'>
