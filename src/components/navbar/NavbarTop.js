@@ -9,7 +9,7 @@ const NavbarTop = () => {
   
   const queryString = window.location.href;
 const splitString = queryString.split('/')
-const route = splitString[5];
+const route = splitString[3];
 console.log(route)
 
   return (
@@ -17,13 +17,13 @@ console.log(route)
     <Container className='link-container is-justify-content-center mt-4'>
       <div className='columns link-columns mr-10'>
         <div className="column">
-          <a href="/react-brewery-api/#/" className={`${route == '' ? "link-active" : "link"}`}>HOME</a>
+          <a href="/" className={`${route == '' ? "link-active" : "link"}`}>HOME</a>
         </div>
         <div className="column">
-          <a href="/react-brewery-api/#/geolocation" className={`${route == 'geolocation' ? "link-active" : "link"}`}>LOCATION</a>
+          <a href="/geolocation" className={`${route == 'geolocation' ? "link-active" : "link"}`}>LOCATION</a>
         </div>
         <div className="column">
-          <a href="/react-brewery-api/#/search" className={`${route == 'search' ? "link-active" : "link"}`}>SEARCH</a>
+          <a href="/search" className={`${route == 'search' ? "link-active" : "link"}`}>SEARCH</a>
         </div>
       </div>
     </Container>
