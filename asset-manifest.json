@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/react-brewery-api/static/css/main.b4b81da8.css",
-    "main.js": "/react-brewery-api/static/js/main.4bd43d29.js",
+    "main.js": "/react-brewery-api/static/js/main.1b2e7ebd.js",
     "static/media/brick.jpg": "/react-brewery-api/static/media/brick.86dcdac0f4d025bea5c5.jpg",
     "static/media/beer-67.gif": "/react-brewery-api/static/media/beer-67.2b84ca269e419a7f3776.gif",
     "index.html": "/react-brewery-api/index.html",
     "main.b4b81da8.css.map": "/react-brewery-api/static/css/main.b4b81da8.css.map",
-    "main.4bd43d29.js.map": "/react-brewery-api/static/js/main.4bd43d29.js.map"
+    "main.1b2e7ebd.js.map": "/react-brewery-api/static/js/main.1b2e7ebd.js.map"
   },
   "entrypoints": [
     "static/css/main.b4b81da8.css",
-    "static/js/main.4bd43d29.js"
+    "static/js/main.1b2e7ebd.js"
   ]
 }
