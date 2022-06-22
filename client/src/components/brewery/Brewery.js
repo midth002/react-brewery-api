@@ -63,12 +63,14 @@ const Brewery = () => {
     <Container className='is-fluid is-widescreen pb-5'>
     <div className='results-title columns is-align-content-center mb-5'>
 
-        <h2 className="column">Results</h2>
-        {page > 1 && <div className='column selectPages'><FontAwesomeIcon icon={faCircleChevronLeft}  size="lg"  className="arrow-icon" onClick={previousPage}/></div>
+        <h2 className="column is-one-quarter">Results: Page {page}</h2>
+        <div className='columns selectPages is-half is-justify-content-end mb-1'>
+        {page > 1 && <button onClick={previousPage}>Prev<span><FontAwesomeIcon icon={faCircleChevronLeft}  size="md"  className="arrow-icon column" /></span></button>
 
         }
-        <div className='column selectPages'><FontAwesomeIcon icon={faCircleChevronRight}  size="lg"  className="arrow-icon" onClick={changePage}/></div>
+        <button onClick={changePage}>Next<FontAwesomeIcon icon={faCircleChevronRight}  size="md"  className="arrow-icon column" /></button></div>
     </div>
+    
     <div className="columns is-flex-wrap-wrap is-justify-content-center">
    
     
