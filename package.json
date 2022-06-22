@@ -1,46 +1,52 @@
 {
-  "name": "react-brewery-api",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "client",
+  "version": "0.1.0",
+   "homepage": "https://midth002.github.io/react-brewery-api",
+  "private": true,
   "dependencies": {
-    "bulma": "^0.9.4",
-    "dequal": "^2.0.2",
-    "csstype": "^3.1.0",
-    "classnames": "^2.3.1",
-    "dom-helpers": "^5.2.1",
-    "object-assign": "^4.1.1",
-    "invariant": "^2.2.4",
-    "react-bootstrap": "^2.4.0",
-    "prop-types": "^15.8.1",
-    "prop-types-extra": "^1.1.1",
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@fortawesome/react-fontawesome": "^0.1.18",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "dotenv": "^16.0.1",
+    "env": "^0.0.2",
+    "node": "^18.4.0",
     "react": "^18.2.0",
-    "react-is": "^16.13.1",
-    "js-tokens": "^4.0.0",
     "react-bulma-components": "^4.1.0",
-    "react-transition-group": "^4.4.2",
     "react-dom": "^18.2.0",
-    "react-lifecycles-compat": "^3.0.4",
-    "uncontrollable": "^7.2.1",
-    "loose-envify": "^1.4.0",
-    "scheduler": "^0.23.0",
-    "regenerator-runtime": "^0.13.9",
-    "warning": "^4.0.3",
-    "env": "^0.0.2"
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
   },
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/midth002/react-brewery-api.git"
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/midth002/react-brewery-api/issues"
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   },
-  "homepage": "https://github.com/midth002/react-brewery-api#readme"
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
 }
